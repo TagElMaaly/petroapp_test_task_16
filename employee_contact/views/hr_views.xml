@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem
+                id="menu_hr_root_test_task"
+                name="Employees Test Task"
+                web_icon="employee_contact,static/description/icon.svg"/>
+
+        <menuitem
+                id="menu_hr_employee_user_test_task"
+                name="Employees Test Task"
+                action="open_view_employee_list_my"
+                parent="menu_hr_root_test_task"
+                sequence="10"/>
+
+    </data>
+</odoo>
